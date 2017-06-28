@@ -12,10 +12,12 @@ import java.awt.Font;
 import java.awt.FlowLayout;
 public class AccNumPanel extends JPanel{
     
+    //creates a JTextField with the specified length
     private JTextField myNum = new JTextField(15);
     
     public AccNumPanel(){
-
+        //add it to the panel
         add(myNum);
     }
+    
 }

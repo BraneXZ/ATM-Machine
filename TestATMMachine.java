@@ -8,6 +8,7 @@ import javax.swing.*;
 
 public class TestATMMachine {
     public static void main(String args[]){
+        
         //instantiates a new ATM Machine object and set its
         //size and visibility
         ATMMachine myMachine = new ATMMachine();
